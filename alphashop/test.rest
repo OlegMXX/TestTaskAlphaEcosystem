@@ -1,0 +1,20 @@
+POST http://127.0.0.1:8000/api/user/signup/
+Content-Type: application/json
+
+{"username": "rewq", "password": "12345", "email": "qwer@ty.ui"}
+
+###
+
+POST http://127.0.0.1:8000/api/user/login/
+Content-Type: application/json
+
+{"username": "rewq", "password": "12345"}
+
+###
+
+
+GET http://127.0.0.1:8000/api/user/test_token/
+Content-Type: application/json
+Authorization: Token 712c3b156b1a14c8765fa8dc91e395e4ae975b37
+
+{}
